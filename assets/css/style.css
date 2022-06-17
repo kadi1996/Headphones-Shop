@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;300;400;500;600;700;800&display=swap");
+header .logo {
+  position: fixed;
+  padding: 3vh;
+}
+header .bar {
+  display: flex;
+  justify-content: space-between;
+}
+header li {
+  list-style: none;
+  color: rgb(234, 204, 194);
+}
+
+h1 {
+  padding: 0 50% 0 30%;
+  line-height: 1.5;
+}
+
+.jumping {
+  height: 100vh;
+  margin: 20vh 7% 0 7%;
+}
+
+main section {
+  height: 100vh;
+}
+
+.alchemy {
+  background: url(../img/BS1_NYC_Home.webp) left/35% auto no-repeat;
+  height: 100vh;
+  margin-left: 20%;
+}
+.alchemy h1 {
+  padding: 25vh 0 0 45%;
+}
+.alchemy p {
+  padding: 3vh 20% 0 45%;
+}
+
+.lounger {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+.lounger .voyager {
+  grid-column: 1/2;
+}
+.lounger .loungerText {
+  grid-column: 2/4;
+}
+
+.sounds {
+  background: url(../img/section-experience-1.jpg) left/70% auto no-repeat;
+}
+.sounds h1 {
+  padding: 27vh 0 0 45%;
+}
+.sounds p {
+  padding: 3vh 20% 0 45%;
+}
+
+.video * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.video html {
+  font-size: 62.5%;
+}
+.video body {
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: #2e2e2e;
+  font-family: "Work Sans";
+}
+.video h1 {
+  font-weight: 300;
+  font-size: 3.5rem;
+  color: #ebccc2;
+}
+.video p {
+  color: rgb(115, 115, 115);
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.exist2create {
+  background: url(../img/ETC_6.webp) left/25% auto no-repeat, url(../img/ETC_5.webp) right/25% auto no-repeat;
+}
+
+.shop {
+  background: url(../img/section-composition4.jpg) left/70% auto no-repeat, url(../img/h9-argilla-bright-hero-1000x1000.webp) right/30% auto no-repeat;
+}
+
+/*# sourceMappingURL=style.css.map */
